@@ -6,14 +6,14 @@ from setuptools import setup, find_packages
 filepath = 'README.md'
 
 setup(
-    name='lapras',
-    version='0.0.23',
+    name='starmie',
+    version='0.0.1',
     packages = find_packages(),
 
-    description='scorecard,logistical regression',
+    description='recommandation system, ctr prediction, recall',
     long_description=open(filepath).read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/datasciencekun/lapras',
+    url='https://github.com/datasciencekun/starmie',
     author='Hayden Yang',
     author_email='yhangang@gmail.com',
     license='MIT',
